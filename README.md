@@ -1,0 +1,1 @@
+Simplified scaffold regenerated.
