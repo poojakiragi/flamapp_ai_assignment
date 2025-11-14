@@ -1,4 +1,4 @@
-# 🔥 Flamapp.AI Assignment — Android (Camera2 + JNI + OpenCV) + Web Viewer
+#  Flamapp.AI Assignment — Android (Camera2 + JNI + OpenCV) + Web Viewer
 
 This repository contains a **simplified but technically-correct scaffold** for the Flamapp.AI Software Engineering Intern (R&D) assignment.  
 It demonstrates the required system design:
@@ -14,5 +14,5 @@ This project is designed to show architecture, code structure, and understanding
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
