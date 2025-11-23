@@ -1,1 +1,45 @@
-<html><body>Web Viewer</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flamapp Web Viewer</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: white;
+    }
+    .frame-box {
+      border: 2px solid #555;
+      width: 60%;
+      margin: 20px auto;
+      padding: 10px;
+      background: #000;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    #stats {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flamapp AI – Web Frame Viewer</h1>
+  <p>This simulates the processed frame from the Android OpenCV pipeline.</p>
+
+  <div class="frame-box">
+    <img id="frameImage" src="sample_frame.png" alt="Processed Frame" />
+    <div id="stats">Resolution: --- | FPS: ---</div>
+  </div>
+
+  <script src="dist/main.js"></script>
+</body>
+</html>
